@@ -1,0 +1,140 @@
+.right-side {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-text {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(61, 58, 58);
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.input-email {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+}
+
+.input-email input {
+  width: 500px;
+
+  height: 58px;
+  padding: 20px 16px 0 16px;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: rgb(182, 178, 178);
+  outline: none;
+  background-color: white;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.input-email label {
+  position: absolute;
+  left: 16px;
+  top: 17px;
+  color: #323333;
+  font-size: 18px;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  background: white;
+  padding: 0 4px;
+}
+
+.input-email input:focus ~ label,
+.input-email input:not(:placeholder-shown) ~ label {
+  top: 5px;
+  font-size: 16px;
+  color: gray;
+}
+.input-email input:focus {
+  border-color: #323333;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.input-email input:hover {
+  border-color: #323333;
+}
+
+.login-button {
+  width: 500px;
+  height: 45px;
+  background-color: rgba(3, 3, 254, 0.916);
+  color: white;
+  border-radius: 24px;
+  border: 1px;
+  margin-left: 0;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 18px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.login-button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.f-password {
+  display: block;
+  height: 45px;
+  width: 500px;
+  margin-left: 0;
+  border: none;
+  border-radius: 24px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(74, 74, 74);
+  margin-bottom: 70px;
+}
+
+.f-password:hover {
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.new-account {
+  height: 45px;
+  width: 500px;
+  margin-left: 0;
+  border-radius: 24px;
+  border: 1px solid;
+  border-color: rgb(57, 57, 251);
+  font-family: Arial, sans-serif;
+  font-weight: 700px;
+  font-size: 17px;
+  color: rgb(17, 17, 192);
+  background-color: white;
+}
+.new-account:hover {
+  background-color: rgb(237, 237, 237);
+  cursor: pointer;
+  transition: 0.15s;
+}
+.meta-content {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+  text-size-adjust: -0.2;
+  margin-left: 100px;
+}
+
+.meta-symbol {
+  color: blue;
+  line-height: 1;
+}
